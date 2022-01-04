@@ -39,29 +39,29 @@ async def start_(client: Client, message: Message):
         caption=f"""**A Telegram Music Bot Based Mongodb.
  Add Me To Ur Chat For and Help and And Support Click On Buttons  ...
 💞  These Features A.I Based 
-Powered By [LUCY BOTS](t.me/LUCYHELP) ...
+Powered By [STARZ BOTS](t.me/STARZ_BOTS) ...
 **""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/Anjulika_op_bot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/LUCYHELP"
+                        "𝐎𝐰𝐧𝐞𝐫", url=f"https://t.m/LegendVidhiVRS"
                     ),
                     InlineKeyboardButton(
-                        "LUCY", url="https://t.me/LUCY_MANAGER2_bot"
+                        "Group", url="https://t.me/vrsop2230"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "CHANNEL", url=f"https://t.me/THANOSOWNER"
+                        "CHANNEL", url=f"https://t.me/Starz_bots"
                     ),
                     InlineKeyboardButton(
-                        "SUPPORT", url=f"https://t.me/LUCYHELP"
+                        "SUPPORT", url=f"https://t.me/Starz_Support"
                     )
                 ]
                 
@@ -79,7 +79,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ 💞", url=f"https://t.me/Lucyhelp")
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ 💞", url=f"https://t.me/vrsop2230")
                 ]
             ]
         ),
@@ -90,12 +90,12 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/59596f593dce576523df8.jpg",
-        caption=f"""LUCY Source Code IS PRIVATE """,
+        caption=f""" This bot ource Code IS PRIVATE """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "RISHABH", url=f"https://t.me/Mafiarishabh")
+                        "Owner", url=f"https://t.me/LegendVidhiVRS")
                 ]
             ]
         ),
