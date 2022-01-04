@@ -99,7 +99,7 @@ async def play(_, message: Message):
         if message.chat.username:
             try: 
                 await ASS_ACC.join_chat(f"{message.chat.username}")
-                await message.reply(f"✅ LUCY {ASSNAME} Joined Successfully",) 
+                await message.reply(f"✅ Florenza {ASSNAME} Joined Successfully",) 
                 await remove_active_chat(chat_id)
             except Exception as e:
                 await message.reply_text(f"❌ __**Assistant Failed To Join**__\n\n**Reason**:{e}")
@@ -109,7 +109,7 @@ async def play(_, message: Message):
                 xxy = await app.export_chat_invite_link(message.chat.id)
                 yxy = await app.revoke_chat_invite_link(message.chat.id, xxy)
                 await ASS_ACC.join_chat(yxy.invite_link)
-                await message.reply(f"✅ LUCY {ASSNAME} Joined Successfully",) 
+                await message.reply(f"✅ Florenza {ASSNAME} Joined Successfully",) 
                 await remove_active_chat(chat_id)
             except UserAlreadyParticipant:
                 pass
@@ -122,7 +122,7 @@ async def play(_, message: Message):
     if audio:
         fucksemx = 1
         what = "Audio Searched"
-        mystic = await message.reply_text(f"**🔄 LUCY Processing Audio Given By {username}**")
+        mystic = await message.reply_text(f"**🔄 Florenza Processing Audio Given By {username}**")
         if audio.file_size > 157286400:
             await mystic.edit_text("❌ Audio File Size Should Be Less Than 150 mb") 
             return
